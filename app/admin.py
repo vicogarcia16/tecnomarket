@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Marca, Producto
+from .models import Marca, Producto, Contacto
 
 class ProductoAdmin(admin.ModelAdmin):
     list_display = ['nombre', 'precio', 'nuevo', 'marca']
@@ -11,5 +11,6 @@ class ProductoAdmin(admin.ModelAdmin):
 
 admin.site.register(Marca)
 admin.site.register(Producto, ProductoAdmin)
+admin.site.register(Contacto)
 
 
