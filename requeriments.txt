@@ -2,3 +2,6 @@ django==3.2.7
 pillow
 django-admin-interface
 django-cryspy-forms
+django-rest-framework
+social-auth-app-django
+django-pwa
